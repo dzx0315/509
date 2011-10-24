@@ -9,8 +9,8 @@
  * @Blog:	http://www.timescode.com
  * @Link:	http://www.dianboom.com
  */
-
-$config				= new stdClass;
+global $config;
+$config= new stdClass;
 
 # modify by tom.wang at 2011-05-12 : add relate url for oauth flow
 $config->AUTHORIZEURL = 'https://graph.renren.com/oauth/authorize';  //进行连接授权的地址，不需要修改
