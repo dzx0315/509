@@ -8,6 +8,7 @@ class RenrenAction extends Action
 	{
 		include './APIs/renren/requires.php';
 		echo $config->AUTHORIZEURL;
+		echo "有改变了";
 		
 	}
 }
